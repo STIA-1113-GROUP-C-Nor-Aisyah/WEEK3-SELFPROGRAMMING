@@ -5,13 +5,21 @@ public class IntegerDivision {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		System.out.println("14 / 4 = " + 14 / 4);
-		System.out.println("14 % 4 = " + 14 % 4);
-		System.out.println("45 % 6 = " + 45 % 6);
-		System.out.println("2 % 2 = " + 2 % 2);
-		System.out.println("8 % 20 = " + 8 % 20);
+		int a = 14 / 4;
+		int b = 14 % 4;
+		int c = 45 % 6;
+		int d = 2 % 2;
+		int e = 8 % 20;
+		
+		
+		System.out.println("14 / 4 = " + a);
+		System.out.println("14 % 4 = " + b);
+		System.out.println("45 % 6 = " + c);
+		System.out.println("2 % 2 = " + d);
+		System.out.println("8 % 20 = " + e);
 
 
 	}
 
 }
+
