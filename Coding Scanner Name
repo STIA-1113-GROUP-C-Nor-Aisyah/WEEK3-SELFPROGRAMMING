@@ -1,0 +1,53 @@
+package numericalData;
+
+import java.util.Scanner;
+
+public class Exercise2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String name;
+		String state;
+		int number1;
+		int number2;
+		char grade;
+		double cgpa;
+		
+		Scanner scanMe = new Scanner (System.in);
+		
+		System.out.println ("Enter your name: ");
+		name = scanMe.nextLine();
+		
+		System.out.println ("State: ");
+		state = scanMe.nextLine();
+		
+		System.out.println ("Enter your cgpa: ");
+		cgpa = scanMe.nextDouble();
+		
+		System.out.println ("Enter your grade for Math in SPM: ");
+		grade = scanMe.next().charAt(0);
+		
+		System.out.println ("Enter number1:");
+		number1 = scanMe.nextInt();
+		
+		System.out.println ("Enter number2: ");
+		number2 = scanMe.nextInt();
+		
+		System.out.println("My name is " + name);
+		System.out.println("I live in " + state);
+		System.out.println("CGPA = " + cgpa);
+		System.out.println("Grade Math SPM = " + grade);
+		System.out.println("Number1 is " + number1);
+		System.out.println("Nuber2 is " + number2);
+		
+		
+		
+		
+		
+		
+		
+
+	}
+
+}
