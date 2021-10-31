@@ -1,0 +1,58 @@
+package numericalData;
+
+
+public class Exercise1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int number1 = 11;
+		int number2 = 22;
+		int number3 = 33;
+		int number4 = 44;
+		int number5 = 55;
+		int number6 = 66;
+		float number7 = 77;
+		float number9 = 100;
+		double number10 = 99;
+
+		int sum;
+		int sum2; 
+		int sum3;
+		double sum4;
+		double sum5;
+		double sum6;
+		double sum7;
+		double sum8;
+		int average;
+		float sum9;
+		
+		sum = number1 + number2 + number3 + number4 + number5 + number6;
+		sum2 = number6 - number1;
+		sum3 = number1 * number2 * number3 * number4 * number5 * number6;
+		sum4 = number9 / number4;
+		sum5 = number6 / number5;
+		sum6 = number10 / number9;
+		sum7 = number10 / number6;
+		sum8 = number7 / number6;
+		//average = (number1 + number2 + number3 + number4 + number5 + number6) / 6
+		average = sum / 6;
+		sum9 = number7 + number6;
+
+		System.out.println("The sum is " + sum);
+		System.out.println("The sum2 is " + sum2);
+		System.out.println("The sum3 is " + sum3);
+		System.out.printf("The sum4 is " + sum4);
+		System.out.printf("%n");
+		System.out.println("The sum5 is " + sum5);
+		System.out.println("The sum6 is " + sum6);
+		System.out.printf("The sum7 is " + sum7);
+		System.out.printf("%n");
+		System.out.printf("The sum8 is " + sum8);
+		System.out.printf("%n");
+		System.out.println("The average of 6 integer are " + average);
+		System.out.println("The sum9 is " + sum9);
+
+	}
+
+}
